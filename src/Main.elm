@@ -11,6 +11,7 @@ view model =
                 , p []
                     [ text "Visualizations provided by Dominik Lenda"
                     ]
+        , h3 [] [ text "The Five Groups of Axioms" ]
         ]
          
 
