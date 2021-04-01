@@ -5,12 +5,12 @@ import Html.Attributes exposing (..)
 
 
 view model =
-    div [ class "hilbert" ]
+    div
+        [ class "hilbert"
+        ]
         [ h1 [] [ text "The Foundations of Geometry" ]
         , h2 [] [ text "David Hilbert" ]
-        , p []
-            [ text "Visualizations provided by Dominik Lenda"
-            ]
+        , p [] [ text "Visualizations provided by Dominik Lenda" ]
         , h3 [] [ text "The Five Groups of Axioms" ]
         , ol []
             [ li [] [ text "Axioms of connection." ]
@@ -18,6 +18,10 @@ view model =
             , li [] [ text "Axiom of parallels." ]
             , li [] [ text "Axioms of congruence." ]
             , li [] [ text "Axiom of continuity." ]
+            ]
+        , h4 [] [ text "Group I: Axioms of connection" ]
+        , p []
+            [ text "Two distinct points A and B always completely determine a straight line a. We write AB = a or BA = a."
             ]
         ]
 
