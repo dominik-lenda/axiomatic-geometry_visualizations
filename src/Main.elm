@@ -48,6 +48,9 @@ view model =
         , p []
             [ text "If A and C are two points of a straight line, then there exists at least one point B lying\nbetween A and C and at least one point D so situated that C lies between A and D."
             ]
+        , p []
+            [ text "Of any three points situated on a straight line, there is always one and only one which lies\nbetween the other two."
+            ]
         ]
 
 
