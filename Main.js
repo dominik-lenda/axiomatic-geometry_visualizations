@@ -4417,6 +4417,7 @@ var $elm$html$Html$div = _VirtualDom_node('div');
 var $elm$html$Html$h1 = _VirtualDom_node('h1');
 var $elm$html$Html$h2 = _VirtualDom_node('h2');
 var $elm$html$Html$h3 = _VirtualDom_node('h3');
+var $elm$html$Html$h4 = _VirtualDom_node('h4');
 var $elm$html$Html$li = _VirtualDom_node('li');
 var $elm$html$Html$ol = _VirtualDom_node('ol');
 var $elm$html$Html$p = _VirtualDom_node('p');
@@ -4499,6 +4500,62 @@ var $author$project$Main$view = function (model) {
 							[
 								$elm$html$Html$text('Axiom of continuity.')
 							]))
+					])),
+				A2(
+				$elm$html$Html$h4,
+				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$text('Group I: Axioms of connection')
+					])),
+				A2(
+				$elm$html$Html$p,
+				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$text('Two distinct points A and B always completely determine a straight line a. We write AB = a or BA = a.')
+					])),
+				A2(
+				$elm$html$Html$p,
+				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$text('Any two distinct points of a straight line completely determine that line; that is, if AB = a and AC = a, where B 6 = C, then is also BC = a.')
+					])),
+				A2(
+				$elm$html$Html$p,
+				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$text('Three points A, B, C not situated in the same straight line always completely determine a\nplane α. We write ABC = a.')
+					])),
+				A2(
+				$elm$html$Html$p,
+				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$text('Any three points A, B, C of a plane α, which do not lie in the same straight line, completely\ndetermine that plane.')
+					])),
+				A2(
+				$elm$html$Html$p,
+				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$text('If two points A, B of a straight line a lie in a plane α, then every point of a lies in α.')
+					])),
+				A2(
+				$elm$html$Html$p,
+				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$text('If two planes α, β have a point A in common, then they have at least a second point B in\ncommon.')
+					])),
+				A2(
+				$elm$html$Html$p,
+				_List_Nil,
+				_List_fromArray(
+					[
+						$elm$html$Html$text('Upon every straight line there exist at least two points, in every plane at least three points\nnot lying in the same straight line, and in space there exist at least four points not lying\nin a plane.')
 					]))
 			]));
 };
