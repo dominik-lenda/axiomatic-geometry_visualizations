@@ -41,6 +41,13 @@ view model =
         , p []
             [ text "Upon every straight line there exist at least two points, in every plane at least three points\nnot lying in the same straight line, and in space there exist at least four points not lying\nin a plane."
             ]
+        , h4 [] [ text "Group II: Axioms of order" ]
+        , p []
+            [ text "If A, B, C are points of a straight line and B lies between A and C, then B lies also between\nC and A."
+            ]
+        , p []
+            [ text "If A and C are two points of a straight line, then there exists at least one point B lying\nbetween A and C and at least one point D so situated that C lies between A and D."
+            ]
         ]
 
 
