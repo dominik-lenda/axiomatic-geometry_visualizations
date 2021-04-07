@@ -51,6 +51,15 @@ view model =
         , p []
             [ text "Of any three points situated on a straight line, there is always one and only one which lies\nbetween the other two."
             ]
+        , p []
+            [ text "Any four points A, B, C, D of a straight line can always be so arranged that B shall lie\nbetween A and C and also between A and D, and, furthermore, that C shall lie between A\nand D and also between B and D."
+            ]
+        , p []
+            [ text "Definition. We will call the system of two points A and B, lying upon a straight\nline, a segment and denote it by AB or BA. The points lying between A and B are called\nthe points of the segment AB or the points lying within the segment AB. All other points of\nthe straight line are referred to as the points lying outside the segment AB. The points A\nand B are called the extremities of the segment AB."
+            ]
+        , p []
+            [ text "Let A, B, C be three points not lying in the same straight line and let a be a straight\nline lying in the plane ABC and not passing through any of the points A, B, C. Then,\nif the straight line a passes through a point of the segment AB, it will also pass through\neither a point of the segment BC or a point of the segment AC."
+            ]
         ]
 
 
