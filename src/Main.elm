@@ -60,6 +60,17 @@ view model =
         , p []
             [ text "Let A, B, C be three points not lying in the same straight line and let a be a straight\nline lying in the plane ABC and not passing through any of the points A, B, C. Then,\nif the straight line a passes through a point of the segment AB, it will also pass through\neither a point of the segment BC or a point of the segment AC."
             ]
+        , h4 [] [ text "Group III: Axioms of parallels (Euclid's axiom)" ]
+        , p []
+            [ text "Given a line and a point outside it there is exactly one line through the given point which lies in the plane of the given line and point so that the two lines do not meet (from Euclid; it sounds better than the version from The Foundation) "
+            ]
+        , h4 [] [ text "Group IV: Axioms of congruence" ]
+        , p []
+            [ text "If A, B are two points on a straight line a, and if A 0 is a point upon the same or\nanother straight line a 0 , then, upon a given side of A 0 on the straight line a 0 , we can always\nfind one and only one point B 0 so that the segment AB (or BA) is congruent to the segment\nA 0 B 0 . We indicate this relation by writing\nAB ≡ A 0 B 0 .\nEvery segment is congruent to itself; that is, we always have\nAB ≡ AB."
+            ]
+        , p []
+            [ text "If a segment AB is congruent to the segment A 0 B 0 and also to the segment A 00 B 00 ,\nthen the segment A 0 B 0 is congruent to the segment A 00 B 00 ; that is, if AB ≡ A 0 B and\nAB ≡ A 00 B 00 , then A 0 B 0 ≡ A 00 B 00 ."
+            ]
         ]
 
 
